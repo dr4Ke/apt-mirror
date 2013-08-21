@@ -9,6 +9,8 @@ set nthreads          20
 set _tilde            0
 # Use --unlink with wget (for use with hardlinked directories)
 set unlink            1
+# Print human sizes (default) or bytes
+set human_sizes       1
 
 deb http://archive.ubuntu.com/ubuntu precise main restricted universe multiverse
 deb http://archive.ubuntu.com/ubuntu precise-security main restricted universe multiverse
